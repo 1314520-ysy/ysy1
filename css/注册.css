@@ -1,0 +1,43 @@
+       [name=province]{color: brown;}
+       #bj{background-color: gold;} 
+       .zz{background-color: gold;}
+       [name=city]{color: red;}
+/*  标记选择器：所有p标记的样式  */
+
+        /* p{font-size: xx-small; color: gray;} */
+        #zc{color: white; background-color: yellowgreen; height: 50px; width: 140px;}
+        #yzm{width: 170px;}/* 验证码样式 */
+        /*label.must{color: green;} 选择器：label标记选择器和类选择器同时使用 */
+
+        #verificationcode{width: 155px;}/* 校验码样式 */
+
+        input.uniform{width: 270px; height: 30px;}
+        /* 选择器：input标记选择器和类选择器同时使用，设置宽和高 */
+
+        #mfjym{height: 35px;}/* 免费校验码高度 */
+
+        /* 伪元素选择器；在元素前添加*表示“必填项” */
+        label.must::before{content: "*"; color: green;}
+
+        /* 选择器的分组举例 */
+        p,span{font-size: xx-small; color: gray;}
+
+        /* 设置输入框轮廓 */
+        input:focus{outline: 3px solid red;}
+        
+/* 注意：外边距（margin）的合并（坍塌） */
+        /* 爱好盒子补白 */
+        div.aihao{
+                margin: 10px 0 10px;
+        }
+        /* 居住地盒子补白 */
+        div.juzhudi{
+                margin: 10px 0 10px;
+        }
+        #main{
+                width: 400px;
+                height: 600px;
+                margin: 0 auto;
+                /* 水平居中 */
+        }
+        

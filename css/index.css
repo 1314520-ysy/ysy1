@@ -1,0 +1,38 @@
+/* 设置滚动区域 */
+#scroll{
+    width:600px;
+    height:500px;
+    border:1px solid black;
+    margin:0 auto;
+    position: relative;
+    overflow: hidden;
+}
+/* 设置轮播图中的图片样式 */
+#scroll>img{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    /* css过渡效果 */
+    transition:left 0.7s else-in-out;
+}
+/* 设置左右箭头样式 */
+.arrow{
+    width: 60px;
+    height: 100%;
+    font-size: 40px;
+    text-align: center;
+    line-height: 500px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+}
+/* 设置页码显示样式 */
+.pageControl{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    position: absolute;
+    cursor: pointer;
+    z-index: 999;
+}

@@ -1,0 +1,99 @@
+    /* 产品展示table样式 */
+    table.recommend{
+    border: 2px red solid;
+    /* 边框坍塌：separate(默认值)|collapse（坍塌） */
+    border-collapse: collapse;
+}
+/* 产品展示table的单元格样式 */
+td{
+    border: 1px red solid;
+}
+div.header::after{
+content: "";/* 内容 */
+display: block;/* 块级元素 */
+height: 0;/* 高度 */
+visibility: hidden;/* 可视性为不可视 */
+overflow: hidden;/* 溢出隐藏 */
+clear: both;/* 清除双侧浮动 */
+}
+div.location{
+    /* 左浮动 */
+    float: left;
+}
+div.nav{
+    /* 右浮动 */
+    float: right;
+}
+/* topbar外层盒子 */
+.topbar{
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+/* 左侧盒子 */
+.topbar-logo{
+    /* border: 1px solid red; */
+    float: left;
+    margin: 6px 50px 6px 0;
+}
+/* 中间外层盒子 */
+.topbar-middle{
+    /* border: 1px solid red; */
+    height: 80px; width: 400px;
+    float: left;
+    margin-top: 20px;
+}
+/* 中间盒子的上盒子 */
+.topbar-middle-search{
+
+}
+/* 中间盒子的上盒子-搜索框 */
+#searchbar{
+    width: 400px;
+    height: 30px;
+    border: red solid 2px;
+}
+/* 中间盒子的下盒子 */
+.topbar-middle-keywords{
+    overflow: hidden;
+}
+/* 中间盒子的下盒子-左半部分（ul列表） */
+.keywords{
+    float: left;
+}
+ul{
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li{
+    list-style: none;
+    float: left;
+    color: gray;
+    margin-right: 12px;
+    font-size: 12px;
+}
+/* 热搜红色字体文本 */
+.hot{
+    color: red;
+    font-weight: bold;
+}
+/* 中间盒子的下盒子-右半部分 */
+.highlevelsearch{
+    float: right;
+    color: green;
+    font-size: 12px;
+}
+/* 右侧盒子 */
+.topbar-cart{
+    height: 80px; width: 150px;
+    /* border: 1px solid red; */
+    float: right;
+    color: white;
+}
+.gotocart{
+    display: block;
+    background-color: red;
+    width: 150px;
+    height: 30px;
+}

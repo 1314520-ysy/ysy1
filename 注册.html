@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <style>
+        @import url(./css/注册.css);
+        @import url(./css/common.css);
+        </style>
+        <script src="./js/注册.js"></script>
+</head>
+<body> 
+    <nav>
+        <a href="./主页.html">主页</a>
+        <span class="fengefu">|</span>
+        <a href="./我的订单.html">我的订单</a>
+        <span class="fengefu">|</span>
+        <a href="./收藏.html">收藏</a>
+        <span class="fengefu">|</span>
+        <a href="./帮助中心.html">帮助中心</a>
+    </nav><br><br><br>
+    <div id="main">
+        <form action="#" >
+            <label for="username" class="must">手机号：</label>
+            <input class="uniform"  id="username" >
+            <span id="warn"></span>
+            <br>
+    <p>请输入您的手机号</p>
+    <div><label for="verification" class="must">验证码:</label>
+        <input type="text" class="uniform" id="yzm"/>
+        <img class="footer" src="./image/验证码.jpg" alt="图片走丢了" height="25"/><a href="#">换一张</a></div> 
+    <p>请输入图中的字母或数字，不区分大小写</p>
+    <div><label for="verificationcode" class="must">校验码:</label>
+        <input type="text" class="uniform" id="verificationcode" size="7.5"/>
+        <button type="button" id="mfjym">免费获取校验码</button>
+    </div>
+    <p>请输入短信中6位数字校验码<a href="#">校验码场景问题</a></p>
+    <div><label for="usernam" class="must">用户名:</label>
+        <input type="text" class="uniform"/></div>
+    <p>2-14个字符：英文、数字或中文</p>
+    <div><label for="password" class="must">密&ensp;&ensp;码:</label>
+        <input type="password" class="uniform"/></div>
+    <p>6-20个字符（区分大小写）</p>
+    <div class="aihao">
+        <label>爱&emsp;好：</label>
+        <input type="checkbox" name="favoriate">游泳
+        <input type="checkbox" name="favoriate">健身
+        <input type="checkbox" name="favoriate">阅读
+        <input type="checkbox" name="favoriate">其他
+    </div>
+    <div class="juzhudi">
+        <label>居住地：</label>
+        <select name="province">
+        <option value="beijing" id="bj">北京</option>
+        <option value="shanghai">上海</option>
+        <option value="nanjing">南京</option>
+        <option value="henan">河南</option>
+        <option value="anhui">安徽</option>
+        <option value="neimenggu">内蒙古</option>
+        </select>
+        <span>省/直辖市</span>
+        <select name="city">
+        <option value="zhengzho" class="zz">郑州</option>
+        <option value="xingyang">信阳</option>
+        <option value="nanyang">南阳</option>
+        <option value="anyang">安阳</option>
+        </select>
+        <span>市/县</span>
+    </div>
+    <div><button id="zc" type="submit">马上注册</button></div>
+    <div><input type="checkbox"/>我已经阅读并同意<a href="#">《360用户服务条款》</a></div>
+</form>
+</div>
+<div id="foot">
+    <footer>
+    <img class="footer" src="./image/正.png">100%正品保障
+    <img class="footer" src="./image/退.png">退货无忧
+    <img class="footer" src="./image/s.png">低价保障
+    <img class="footer" src="./image/飞机.png">海外发货
+    <br/>
+    关于我们 | 服务条款 | 隐私保护 | 联系我们 |帮助中心
+    <br/>
+    版权所有&copy;软件2班
+    </footer>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,28 @@
+/* 分割符 */
+span.fengefu{
+    margin: 0 15px 0;
+/* padding: 0px 15px 0px; */
+}
+
+/* 链接样式：用伪类选择器 */
+a:link{text-decoration: none; color: gold;}/* 链接没有点击过 */
+a:visited{color: seagreen;}/* 链接点击过 */
+a:hover{color: royalblue;}/* 鼠标在链接上悬停 */
+a:active{color: orangered;}/* 鼠标点击但未松时 */
+
+body{
+    margin: 0;
+}
+img{
+    /* 显示为块级元素 */
+    display: block;
+}
+img.footer{
+    /* 显示为内联元素 */
+    display: inline;
+}
+#foot{
+    width: 580px;
+    height: 150px;
+    margin: 0 auto; /* 水平居中 */
+}
